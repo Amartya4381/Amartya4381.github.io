@@ -1,2 +1,2 @@
 # Amartya4381.github.io
-Research profile
+Will update soon.
