@@ -3,16 +3,14 @@ layout: default
 title: "Home"
 ---
 
-# Amartya Chakrabortty
-
-Welcome to my academic homepage. I am a researcher in **partial differential equations**, **nonlinear elasticity**, and **continuum mechanics**.  
-My research focuses on mathematical modeling, asymptotic analysis, and dimension reduction of thin high-contrast elastic composites.
-
----
 
 ## 📌 About
 
-I am currently working on mathematical problems arising in nonlinear elasticity, focusing on variational methods and dimension reduction in high-contrast composite materials.
+Welcome to my academic homepage. I am a researcher in **partial differential equations**, **calculus of variations**, **homogenization**, and **continuum mechanics**.
+
+My research focuses on the rigorous analysis of **nonlinear elastic systems** with fine-scale heterogeneities and reduced geometries. Specifically, I work at the intersection of the **calculus of variations**, **PDE theory**, and **nonlinear elasticity**, with an emphasis on **asymptotic analysis** and **effective modeling** of thin and heterogeneous structures.
+
+I am particularly interested in the mathematical derivation of lower-dimensional or homogenized models for materials and systems governed by **variational principles** and **nonlinear PDEs**, especially those arising in physics and engineering.
 
 ---
 
