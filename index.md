@@ -1,3 +1,5 @@
+## 📌 Home
+
 <div style="display: flex; gap: 30px;">
 
   <!-- Sidebar menu (left) -->
@@ -15,10 +17,12 @@
     </ul>
   </nav>
 
-  <!-- Main content (center) -->
-  <div style="flex: 1; max-width: 700px;">
+  <!-- Close the flex container here to let markdown render normally -->
+</div>
 
-## 📌 About {#about}
+---
+
+## 📌 About
 
 Welcome to my academic homepage. I am **Amartya Chakrabortty**, currently in the final phase of my Ph.D. in Mathematics at **RPTU Kaiserslautern and Landau** (formerly TU Kaiserslautern), jointly conducted with the **Fraunhofer Institute for Industrial Mathematics (ITWM)**.  
 My doctoral research is supervised by **Prof. Dr. Martin Grothaus** (RPTU), **Dr. Julia Orlik** (Fraunhofer ITWM), in collaboration with **Prof. Dr. Georges Griso** (Sorbonne Université, Paris).
@@ -120,46 +124,42 @@ Outside of academics, I enjoy playing **volleyball**, **badminton**, **swimming*
 ### 🏆 Awards and Achievements {#awards--achievements}
 
 #### 🎓 Grants
-
 - **2024** — *SIAM MS24 Student Travel Award* (Availed)  
 - **2024** — *DAAD Kongressreisen 2024* (Not Availed)
 
 #### 📘 Academics
-
-- Graduate Aptitude Test for Engineering (GATE) 2022 — *All India Rank 167*  
-- National Eligibility Test (NET) 2022 — *All India Rank 82*  
-- Qualified for Tata Institute of Fundamental Research GS 2020  
-- Joint Admission Test for Masters (JAM) — *All India Rank 56*  
-- Best All-Round Student of School — *Awarded in 2016*  
+- Graduate Aptitude Test for Engineering (GATE) 2022 — *All India Rank 167*
+- National Eligibility Test (NET) 2022 — *All India Rank 82*
+- Qualified for Tata Institute of Fundamental Research GS 2020
+- Joint Admission Test for Masters (JAM) — *All India Rank 56*
+- Best All-Round Student of School — *Awarded in 2016*
 - Merit Scholarship from IIT Madras — *2020–2022*
 
 #### 🏐 Sports & Extracurricular
-
-- Palatine League Volleyball 2024–2025 — *Playing for SG Westpfalz, Kaiserslautern*  
+- Palatine League Volleyball 2024–2025 — *Playing for SG Westpfalz, Kaiserslautern*
 - Under-17 National School-Level Volleyball — *2014–2015*
 
 ---
 
 ### 📚 More {#more}
 
-- [CV (PDF)](A_Customised_CurVe_CV.pdf)
-- [Fraunhofer ITWM](https://www.itwm.fraunhofer.de/de/abteilungen/sms/mitarbeiter/amarty-chakrabortty.html)
+- [CV (PDF)](A_Customised_CurVe_CV.pdf)  
+- [Fraunhofer ITWM](https://www.itwm.fraunhofer.de/de/abteilungen/sms/mitarbeiter/amarty-chakrabortty.html)  
 - [Google Scholar](https://scholar.google.com/citations?hl=en&user=I0g0Jq8AAAAJ)  
-- [ResearchGate](https://www.researchgate.net/profile/Amartya-Chakrabortty-2?ev=hdr_xprf)
-- [LinkedIn](https://www.linkedin.com/in/amartya-chakrabortty-514206147/)
-- [Contact: amartya.chakrabortty@itwm.fraunhofer.de](mailto:amartya.chakrabortty@itwm.fraunhofer.de)  
-- [Contact: amartya4381@gmail.com](mailto:amartya4381@gmail.com)
+- [ResearchGate](https://www.researchgate.net/profile/Amartya-Chakrabortty-2?ev=hdr_xprf)  
+- [LinkedIn](https://www.linkedin.com/in/amartya-chakrabortty-514206147/)  
+- [Contact](mailto:amartya.chakrabortty@itwm.fraunhofer.de), [Contact](mailto:amartya4381@gmail.com)
 
 ---
 
+<!-- Reopen flex container for right photo -->
 
-  </div>
-
-  <!-- Photo (right) -->
+<div style="display: flex; justify-content: flex-end; margin-top: 20px;">
   <div style="flex: 0 0 200px;">
     <img src="sms_chakrabortty_amartya.jpg" alt="Amartya Chakrabortty" style="max-width: 100%; border-radius: 12px; box-shadow: 0 0 8px rgba(0,0,0,0.2);">
   </div>
-
 </div>
+
+---
 
 _Last updated: {{ site.time | date: '%B %Y' }}_
