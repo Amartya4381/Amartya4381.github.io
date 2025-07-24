@@ -1,8 +1,6 @@
 
 ## 📌 About
 
-## 📌 About
-
 <div style="display: flex;">
 
   <!-- Sidebar menu -->
