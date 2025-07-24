@@ -1,7 +1,3 @@
-ducation, ---
-layout: default
-title: "Home"
----
 
 ## 📌 About
 
@@ -10,11 +6,12 @@ title: "Home"
   <!-- Left Column: Table of Contents -->
   <div style="flex: 1; min-width: 200px; margin-right: 20px;">
     ### 🔗 Contents
-    - [🎓 Educational Qualification](#-educational-qualification)
-    - [💼 Employment History](#-employment-history)
-    - [📅 Conferences & Workshops](#-conferences--workshops)
-    - [🏆 Achievements](#-achievements)
-    - [📫 Contact](#-contact) <!-- Optional -->
+    - [🎓 Educational Qualification](#educational-qualification)
+    - [💼 Employment History](#employment-history)
+    - [🔬 Research Interests](#research-interests)
+    - [📅 Conferences & Workshops](#conferences--workshops)
+    - [🏆 Awards and Achievements](#awards--achievements)
+    - [📚 More](#more) <!-- Optional -->
   </div>
 
   <!-- Right Column: Photo -->
@@ -38,7 +35,7 @@ My broader research interests include the **calculus of variations**, **nonlinea
 
 Outside of academics, I enjoy playing **volleyball**, **badminton**, **swimming**, going to the **gym**, and writing **sci-fi fantasy stories**.
 
-...
+---
 
 
 ## 🎓 Educational Qualification
