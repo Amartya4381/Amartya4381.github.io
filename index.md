@@ -1,10 +1,30 @@
----
+ducation, ---
 layout: default
 title: "Home"
 ---
 
-
 ## 📌 About
+
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: flex-start;">
+
+  <!-- Left Column: Table of Contents -->
+  <div style="flex: 1; min-width: 200px; margin-right: 20px;">
+    ### 🔗 Contents
+    - [🎓 Educational Qualification](#-educational-qualification)
+    - [💼 Employment History](#-employment-history)
+    - [📅 Conferences & Workshops](#-conferences--workshops)
+    - [🏆 Achievements](#-achievements)
+    - [📫 Contact](#-contact) <!-- Optional -->
+  </div>
+
+  <!-- Right Column: Photo -->
+  <div style="flex: 0 0 200px;">
+    <img src="your-photo.jpg" alt="Amartya Chakrabortty" style="max-width: 100%; border-radius: 12px; box-shadow: 0 0 8px rgba(0,0,0,0.2);">
+  </div>
+
+</div>
+
+---
 
 Welcome to my academic homepage. I am **Amartya Chakrabortty**, currently in the final phase of my Ph.D. in Mathematics at **RPTU Kaiserslautern and Landau** (formerly TU Kaiserslautern), jointly conducted with the **Fraunhofer Institute for Industrial Mathematics (ITWM)**.  
 My doctoral research is supervised by **Prof. Dr. Martin Grothaus** (RPTU), **Dr. Julia Orlik** (Fraunhofer ITWM), in collaboration with **Prof. Dr. Georges Griso** (Sorbonne Université, Paris).
@@ -18,8 +38,8 @@ My broader research interests include the **calculus of variations**, **nonlinea
 
 Outside of academics, I enjoy playing **volleyball**, **badminton**, **swimming**, going to the **gym**, and writing **sci-fi fantasy stories**.
 
+...
 
----
 
 ## 🎓 Educational Qualification
 
