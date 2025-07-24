@@ -104,16 +104,6 @@ Outside of academics, I enjoy playing **volleyball**, **badminton**, **swimming*
 
 ---
 
-## 🎤 Conference and Talks
-
-- *Title of Talk*, Conference Name, Location – [Date]  
-- *Title of Talk*, Workshop/Seminar Name, Institution – [Date]  
-- *Poster Presentation*, Conference Name – [Date]  
-
-> _(Add more entries as you present your work)_
-
----
-
 ## 🏆 Awards and Achievements
 
 ### 🎓 Grants
@@ -134,13 +124,6 @@ Outside of academics, I enjoy playing **volleyball**, **badminton**, **swimming*
 
 ---
 
-## 🏆 Achievements
-
-- [Name of Award or Fellowship], [Year]  
-- [Selected for Research Internship at ...], [Year]  
-- [Other recognition, exam ranks, or distinctions]
-
----
 
 ## 📚 More
 
