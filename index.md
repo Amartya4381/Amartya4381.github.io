@@ -1,13 +1,11 @@
+<div style="display: flex; gap: 30px;">
 
-## 📌 About
-
-<div style="display: flex;">
-
-  <!-- Sidebar menu -->
+  <!-- Sidebar menu (left) -->
   <nav style="position: sticky; top: 20px; height: 90vh; overflow-y: auto; 
               flex: 0 0 220px; padding-right: 20px; border-right: 2px solid #ddd;">
     <h3>🔗 Contents</h3>
     <ul style="list-style: none; padding-left: 0; font-size: 1.1em;">
+      <li><a href="#about" style="text-decoration: none; color: #0366d6;">📌 About</a></li>
       <li><a href="#educational-qualification" style="text-decoration: none; color: #0366d6;">🎓 Educational Qualification</a></li>
       <li><a href="#employment-history" style="text-decoration: none; color: #0366d6;">💼 Employment History</a></li>
       <li><a href="#research-interests" style="text-decoration: none; color: #0366d6;">🔬 Research Interests</a></li>
@@ -17,41 +15,10 @@
     </ul>
   </nav>
 
-  <!-- Main content area -->
-  <div style="flex: 1; padding-left: 30px;">
-  
-  <!-- Your actual content starts here -->
-  
-  ### 🎓 Educational Qualification
-  <!-- content here -->
+  <!-- Main content (center) -->
+  <div style="flex: 1; max-width: 700px;">
 
-  ### 💼 Employment History
-  <!-- content here -->
-
-  ### 🔬 Research Interests
-  <!-- content here -->
-
-  ### 📅 Conferences & Workshops
-  <!-- content here -->
-
-  ### 🏆 Awards and Achievements
-  <!-- content here -->
-
-  ### 📚 More
-  <!-- content here -->
-
-  </div>
-</div>
-
-
-  <!-- Right Column: Photo -->
-  <div style="flex: 0 0 200px;">
-    <img src="sms_chakrabortty_amartya.jpg" alt="Amartya Chakrabortty" style="max-width: 100%; border-radius: 12px; box-shadow: 0 0 8px rgba(0,0,0,0.2);">
-  </div>
-
-</div>
-
----
+## 📌 About {#about}
 
 Welcome to my academic homepage. I am **Amartya Chakrabortty**, currently in the final phase of my Ph.D. in Mathematics at **RPTU Kaiserslautern and Landau** (formerly TU Kaiserslautern), jointly conducted with the **Fraunhofer Institute for Industrial Mathematics (ITWM)**.  
 My doctoral research is supervised by **Prof. Dr. Martin Grothaus** (RPTU), **Dr. Julia Orlik** (Fraunhofer ITWM), in collaboration with **Prof. Dr. Georges Griso** (Sorbonne Université, Paris).
@@ -67,8 +34,7 @@ Outside of academics, I enjoy playing **volleyball**, **badminton**, **swimming*
 
 ---
 
-
-## 🎓 Educational Qualification
+### 🎓 Educational Qualification {#educational-qualification}
 
 - **Ph.D. in Mathematics**  
   *March 2023 – Present*  
@@ -92,7 +58,8 @@ Outside of academics, I enjoy playing **volleyball**, **badminton**, **swimming*
   **Grade:** 9.03 / 10
 
 ---
-## 💼 Employment History
+
+### 💼 Employment History {#employment-history}
 
 - **Research Assistant**  
   *September 2022 – Present*  
@@ -108,18 +75,17 @@ Outside of academics, I enjoy playing **volleyball**, **badminton**, **swimming*
 
 ---
 
-## 🔬 Research Interests
+### 🔬 Research Interests {#research-interests}
 
 - Nonlinear Elasticity and Continuum Mechanics  
 - Partial Differential Equations (PDEs)  
 - Calculus of Variations  
 - Asymptotic Analysis (Homogenization, Γ-convergence, etc.)  
 - Mathematical Modeling
-    
 
 ---
 
-## 📅 Conferences & Workshops
+### 📅 Conferences & Workshops {#conferences--workshops}
 
 - **April 29–30, 2025**  
   *Workshop of the DFH Research Training Group on Mathematical Image Processing*, Kaiserslautern, Germany  
@@ -151,34 +117,49 @@ Outside of academics, I enjoy playing **volleyball**, **badminton**, **swimming*
 
 ---
 
-## 🏆 Awards and Achievements
+### 🏆 Awards and Achievements {#awards--achievements}
 
-### 🎓 Grants
+#### 🎓 Grants
+
 - **2024** — *SIAM MS24 Student Travel Award* (Availed)  
 - **2024** — *DAAD Kongressreisen 2024* (Not Availed)
 
-### 📘 Academics
-- Graduate Aptitude Test for Engineering (GATE) 2022 — *All India Rank 167*
-- National Eligibility Test (NET) 2022 — *All India Rank 82*
-- Qualified for Tata Institute of Fundamental Research GS 2020
-- Joint Admission Test for Masters (JAM) — *All India Rank 56*
-- Best All-Round Student of School — *Awarded in 2016*
+#### 📘 Academics
+
+- Graduate Aptitude Test for Engineering (GATE) 2022 — *All India Rank 167*  
+- National Eligibility Test (NET) 2022 — *All India Rank 82*  
+- Qualified for Tata Institute of Fundamental Research GS 2020  
+- Joint Admission Test for Masters (JAM) — *All India Rank 56*  
+- Best All-Round Student of School — *Awarded in 2016*  
 - Merit Scholarship from IIT Madras — *2020–2022*
 
-### 🏐 Sports & Extracurricular
-- Palatine League Volleyball 2024–2025 — *Playing for SG Westpfalz, Kaiserslautern*
+#### 🏐 Sports & Extracurricular
+
+- Palatine League Volleyball 2024–2025 — *Playing for SG Westpfalz, Kaiserslautern*  
 - Under-17 National School-Level Volleyball — *2014–2015*
 
 ---
 
+### 📚 More {#more}
 
-## 📚 More
-
-- [CV (PDF)](cv.pdf)  
-- [Google Scholar](#)  
-- [ORCID](#)  
-- [Contact](mailto:your.email@domain.com)  
+- [CV (PDF)](A_Customised_CurVe_CV.pdf)
+- [Fraunhofer ITWM](https://www.itwm.fraunhofer.de/de/abteilungen/sms/mitarbeiter/amarty-chakrabortty.html)
+- [Google Scholar](https://scholar.google.com/citations?hl=en&user=I0g0Jq8AAAAJ)  
+- [ResearchGate](https://www.researchgate.net/profile/Amartya-Chakrabortty-2?ev=hdr_xprf)
+- [LinkedIn](https://www.linkedin.com/in/amartya-chakrabortty-514206147/)
+- [Contact: amartya.chakrabortty@itwm.fraunhofer.de](mailto:amartya.chakrabortty@itwm.fraunhofer.de)  
+- [Contact: amartya4381@gmail.com](mailto:amartya4381@gmail.com)
 
 ---
+
+
+  </div>
+
+  <!-- Photo (right) -->
+  <div style="flex: 0 0 200px;">
+    <img src="sms_chakrabortty_amartya.jpg" alt="Amartya Chakrabortty" style="max-width: 100%; border-radius: 12px; box-shadow: 0 0 8px rgba(0,0,0,0.2);">
+  </div>
+
+</div>
 
 _Last updated: {{ site.time | date: '%B %Y' }}_
