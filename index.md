@@ -19,7 +19,7 @@ title: "Home"
 
   <!-- Right Column: Photo -->
   <div style="flex: 0 0 200px;">
-    <img src="your-photo.jpg" alt="Amartya Chakrabortty" style="max-width: 100%; border-radius: 12px; box-shadow: 0 0 8px rgba(0,0,0,0.2);">
+    <img src="sms_chakrabortty_amartya.jpg" alt="Amartya Chakrabortty" style="max-width: 100%; border-radius: 12px; box-shadow: 0 0 8px rgba(0,0,0,0.2);">
   </div>
 
 </div>
