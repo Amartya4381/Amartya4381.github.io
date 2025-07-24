@@ -1,18 +1,50 @@
 
 ## 📌 About
 
-<div style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: flex-start;">
+## 📌 About
 
-  <!-- Left Column: Table of Contents -->
-  <div style="flex: 1; min-width: 200px; margin-right: 20px;">
-    ### 🔗 Contents
-    - [🎓 Educational Qualification](#educational-qualification)
-    - [💼 Employment History](#employment-history)
-    - [🔬 Research Interests](#research-interests)
-    - [📅 Conferences & Workshops](#conferences--workshops)
-    - [🏆 Awards and Achievements](#awards--achievements)
-    - [📚 More](#more) <!-- Optional -->
+<div style="display: flex;">
+
+  <!-- Sidebar menu -->
+  <nav style="position: sticky; top: 20px; height: 90vh; overflow-y: auto; 
+              flex: 0 0 220px; padding-right: 20px; border-right: 2px solid #ddd;">
+    <h3>🔗 Contents</h3>
+    <ul style="list-style: none; padding-left: 0; font-size: 1.1em;">
+      <li><a href="#educational-qualification" style="text-decoration: none; color: #0366d6;">🎓 Educational Qualification</a></li>
+      <li><a href="#employment-history" style="text-decoration: none; color: #0366d6;">💼 Employment History</a></li>
+      <li><a href="#research-interests" style="text-decoration: none; color: #0366d6;">🔬 Research Interests</a></li>
+      <li><a href="#conferences--workshops" style="text-decoration: none; color: #0366d6;">📅 Conferences & Workshops</a></li>
+      <li><a href="#awards--achievements" style="text-decoration: none; color: #0366d6;">🏆 Awards and Achievements</a></li>
+      <li><a href="#more" style="text-decoration: none; color: #0366d6;">📚 More</a></li>
+    </ul>
+  </nav>
+
+  <!-- Main content area -->
+  <div style="flex: 1; padding-left: 30px;">
+  
+  <!-- Your actual content starts here -->
+  
+  ### 🎓 Educational Qualification
+  <!-- content here -->
+
+  ### 💼 Employment History
+  <!-- content here -->
+
+  ### 🔬 Research Interests
+  <!-- content here -->
+
+  ### 📅 Conferences & Workshops
+  <!-- content here -->
+
+  ### 🏆 Awards and Achievements
+  <!-- content here -->
+
+  ### 📚 More
+  <!-- content here -->
+
   </div>
+</div>
+
 
   <!-- Right Column: Photo -->
   <div style="flex: 0 0 200px;">
