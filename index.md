@@ -1,46 +1,64 @@
-## 📌 Home
+<!-- Fixed Sidebar on Left -->
+<nav style="
+  position: fixed;
+  left: 0;
+  top: 20px;
+  bottom: 20px;
+  width: 220px;
+  overflow-y: auto;
+  padding-right: 20px;
+  border-right: 2px solid #ddd;
+  background: white;
+  z-index: 10;
+">
+  <h3>🔗 Contents</h3>
+  <ul style="list-style: none; padding-left: 0; font-size: 1.1em;">
+    <li><a href="#about" style="text-decoration: none; color: #0366d6;">📌 About</a></li>
+    <li><a href="#educational-qualification" style="text-decoration: none; color: #0366d6;">🎓 Educational Qualification</a></li>
+    <li><a href="#employment-history" style="text-decoration: none; color: #0366d6;">💼 Employment History</a></li>
+    <li><a href="#research-interests" style="text-decoration: none; color: #0366d6;">🔬 Research Interests</a></li>
+    <li><a href="#conferences--workshops" style="text-decoration: none; color: #0366d6;">📅 Conferences & Workshops</a></li>
+    <li><a href="#awards--achievements" style="text-decoration: none; color: #0366d6;">🏆 Awards and Achievements</a></li>
+    <li><a href="#more" style="text-decoration: none; color: #0366d6;">📚 More</a></li>
+  </ul>
+</nav>
 
-<div style="display: flex; gap: 30px;">
-
-  <!-- Sidebar menu (left) -->
-  <nav style="position: sticky; top: 20px; height: 90vh; overflow-y: auto; 
-              flex: 0 0 220px; padding-right: 20px; border-right: 2px solid #ddd;">
-    <h3>🔗 Contents</h3>
-    <ul style="list-style: none; padding-left: 0; font-size: 1.1em;">
-      <li><a href="#about" style="text-decoration: none; color: #0366d6;">📌 About</a></li>
-      <li><a href="#educational-qualification" style="text-decoration: none; color: #0366d6;">🎓 Educational Qualification</a></li>
-      <li><a href="#employment-history" style="text-decoration: none; color: #0366d6;">💼 Employment History</a></li>
-      <li><a href="#research-interests" style="text-decoration: none; color: #0366d6;">🔬 Research Interests</a></li>
-      <li><a href="#conferences--workshops" style="text-decoration: none; color: #0366d6;">📅 Conferences & Workshops</a></li>
-      <li><a href="#awards--achievements" style="text-decoration: none; color: #0366d6;">🏆 Awards and Achievements</a></li>
-      <li><a href="#more" style="text-decoration: none; color: #0366d6;">📚 More</a></li>
-    </ul>
-  </nav>
-
-  <!-- Close the flex container here to let markdown render normally -->
+<!-- Fixed Photo on Right -->
+<div style="
+  position: fixed;
+  right: 0;
+  top: 20px;
+  bottom: 20px;
+  width: 200px;
+  padding-left: 20px;
+  background: white;
+  z-index: 10;
+">
+  <img src="sms_chakrabortty_amartya.jpg" alt="Amartya Chakrabortty" style="max-width: 100%; border-radius: 12px; box-shadow: 0 0 8px rgba(0,0,0,0.2);">
 </div>
 
----
+<!-- Main Content Area -->
+<div style="margin-left: 250px; margin-right: 230px; padding: 20px;">
+<!-- REPLACE THIS WITH YOUR MARKDOWN CONTENT -->
+  ## 📌 About {#about}
 
-## 📌 About
+  Welcome to my academic homepage. I am **Amartya Chakrabortty**, currently in the final phase of my Ph.D. in Mathematics at **RPTU Kaiserslautern and Landau** (formerly TU Kaiserslautern),   jointly conducted with the **Fraunhofer Institute for Industrial Mathematics (ITWM)**.  
+  My doctoral research is supervised by **Prof. Dr. Martin Grothaus** (RPTU), **Dr. Julia Orlik** (Fraunhofer ITWM), in collaboration with **Prof. Dr. Georges Griso** (Sorbonne Université,     Paris).
 
-Welcome to my academic homepage. I am **Amartya Chakrabortty**, currently in the final phase of my Ph.D. in Mathematics at **RPTU Kaiserslautern and Landau** (formerly TU Kaiserslautern), jointly conducted with the **Fraunhofer Institute for Industrial Mathematics (ITWM)**.  
-My doctoral research is supervised by **Prof. Dr. Martin Grothaus** (RPTU), **Dr. Julia Orlik** (Fraunhofer ITWM), in collaboration with **Prof. Dr. Georges Griso** (Sorbonne Université, Paris).
+  My Ph.D. work focuses on the **rigorous derivation of reduced and effective models in nonlinear elasticity**, particularly via the **simultaneous application of homogenization and            dimension reduction techniques** to thin structures with high contrast and complex microstructure.
 
-My Ph.D. work focuses on the **rigorous derivation of reduced and effective models in nonlinear elasticity**, particularly via the **simultaneous application of homogenization and dimension reduction techniques** to thin structures with high contrast and complex microstructure.
+  In parallel, I have participated in external collaborations on **modeling and asymptotic analysis of biological systems**. I have also worked on **optimal control problems** and           **eigenvalue problems**.  
+  In my role as a research assistant (HiWi) in the **Department of Flow and Material Simulation** at Fraunhofer ITWM, I contribute to the **modeling, simulation, and validation of textile-  based structures**, using in-house tools such as `TexMath` and `FiberFEM`.
 
-In parallel, I have participated in external collaborations on **modeling and asymptotic analysis of biological systems**. I have also worked on **optimal control problems** and **eigenvalue problems**.  
-In my role as a research assistant (HiWi) in the **Department of Flow and Material Simulation** at Fraunhofer ITWM, I contribute to the **modeling, simulation, and validation of textile-based structures**, using in-house tools such as `TexMath` and `FiberFEM`.
+  My broader research interests include the **calculus of variations**, **nonlinear PDEs**, and **multiscale modeling**.
 
-My broader research interests include the **calculus of variations**, **nonlinear PDEs**, and **multiscale modeling**.
+  Outside of academics, I enjoy playing **volleyball**, **badminton**, **swimming**, going to the **gym**, and writing **sci-fi fantasy stories**.
 
-Outside of academics, I enjoy playing **volleyball**, **badminton**, **swimming**, going to the **gym**, and writing **sci-fi fantasy stories**.
+  ---
 
----
+  ### 🎓 Educational Qualification {#educational-qualification}
 
-### 🎓 Educational Qualification {#educational-qualification}
-
-- **Ph.D. in Mathematics**  
+  - **Ph.D. in Mathematics**  
   *March 2023 – Present*  
   Department of Mathematics, RPTU Kaiserslautern & Landau, Germany  
   **Thesis title:** *Asymptotic analysis of high-contrast composites governed by non-linear elasticity*
@@ -152,14 +170,7 @@ Outside of academics, I enjoy playing **volleyball**, **badminton**, **swimming*
 
 ---
 
-<!-- Reopen flex container for right photo -->
-
-<div style="display: flex; justify-content: flex-end; margin-top: 20px;">
-  <div style="flex: 0 0 200px;">
-    <img src="sms_chakrabortty_amartya.jpg" alt="Amartya Chakrabortty" style="max-width: 100%; border-radius: 12px; box-shadow: 0 0 8px rgba(0,0,0,0.2);">
-  </div>
-</div>
-
----
 
 _Last updated: {{ site.time | date: '%B %Y' }}_
+
+</div>
