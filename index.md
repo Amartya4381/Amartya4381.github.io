@@ -1,46 +1,14 @@
-<!-- Fixed Sidebar on Left -->
-<nav style="
-  position: fixed;
-  left: 0;
-  top: 20px;
-  bottom: 20px;
-  width: 220px;
-  overflow-y: auto;
-  padding-right: 20px;
-  border-right: 2px solid #ddd;
-  background: white;
-  z-index: 10;
-">
-  <h3>🔗 Contents</h3>
-  <ul style="list-style: none; padding-left: 0; font-size: 1.1em;">
-    <li><a href="#about" style="text-decoration: none; color: #0366d6;">📌 About</a></li>
-    <li><a href="#educational-qualification" style="text-decoration: none; color: #0366d6;">🎓 Educational Qualification</a></li>
-    <li><a href="#employment-history" style="text-decoration: none; color: #0366d6;">💼 Employment History</a></li>
-    <li><a href="#research-interests" style="text-decoration: none; color: #0366d6;">🔬 Research Interests</a></li>
-    <li><a href="#conferences--workshops" style="text-decoration: none; color: #0366d6;">📅 Conferences & Workshops</a></li>
-    <li><a href="#awards--achievements" style="text-decoration: none; color: #0366d6;">🏆 Awards and Achievements</a></li>
-    <li><a href="#more" style="text-decoration: none; color: #0366d6;">📚 More</a></li>
-  </ul>
-</nav>
 
-<!-- Fixed Photo on Right -->
-<div style="
-  position: fixed;
-  right: 0;
-  top: 20px;
-  bottom: 20px;
-  width: 200px;
-  padding-left: 20px;
-  background: white;
-  z-index: 10;
-">
-  <img src="sms_chakrabortty_amartya.jpg" alt="Amartya Chakrabortty" style="max-width: 100%; border-radius: 12px; box-shadow: 0 0 8px rgba(0,0,0,0.2);">
-</div>
+---
+# Feel free to add content and custom Front Matter to this file.
+# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
-<!-- Main Content Area -->
-<div style="margin-left: 250px; margin-right: 230px; padding: 20px;">
+layout: default
+title: Amartya Chakrabortty
+---
+
 <!-- REPLACE THIS WITH YOUR MARKDOWN CONTENT -->
-  ## 📌 About {#about}
+## 📌 About {#about}
 
   Welcome to my academic homepage. I am **Amartya Chakrabortty**, currently in the final phase of my Ph.D. in Mathematics at **RPTU Kaiserslautern and Landau** (formerly TU Kaiserslautern),   jointly conducted with the **Fraunhofer Institute for Industrial Mathematics (ITWM)**.  
   My doctoral research is supervised by **Prof. Dr. Martin Grothaus** (RPTU), **Dr. Julia Orlik** (Fraunhofer ITWM), in collaboration with **Prof. Dr. Georges Griso** (Sorbonne Université,     Paris).
@@ -56,9 +24,9 @@
 
   ---
 
-  ### 🎓 Educational Qualification {#educational-qualification}
+### 🎓 Educational Qualification {#educational-qualification}
 
-  - **Ph.D. in Mathematics**  
+- **Ph.D. in Mathematics**  
   *March 2023 – Present*  
   Department of Mathematics, RPTU Kaiserslautern & Landau, Germany  
   **Thesis title:** *Asymptotic analysis of high-contrast composites governed by non-linear elasticity*
@@ -172,5 +140,3 @@
 
 
 _Last updated: {{ site.time | date: '%B %Y' }}_
-
-</div>
