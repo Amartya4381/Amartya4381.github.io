@@ -1,7 +1,7 @@
 <!-- Fixed Sidebar on Left -->
 <nav style="
   position: fixed;
-  left: 0;
+  left: 20px;           /* changed from 0 to 20px */
   top: 20px;
   bottom: 20px;
   width: 220px;
@@ -11,22 +11,13 @@
   background: white;
   z-index: 10;
 ">
-  <h3>🔗 Contents</h3>
-  <ul style="list-style: none; padding-left: 0; font-size: 1.1em;">
-    <li><a href="#about" style="text-decoration: none; color: #0366d6;">📌 About</a></li>
-    <li><a href="#educational-qualification" style="text-decoration: none; color: #0366d6;">🎓 Educational Qualification</a></li>
-    <li><a href="#employment-history" style="text-decoration: none; color: #0366d6;">💼 Employment History</a></li>
-    <li><a href="#research-interests" style="text-decoration: none; color: #0366d6;">🔬 Research Interests</a></li>
-    <li><a href="#conferences--workshops" style="text-decoration: none; color: #0366d6;">📅 Conferences & Workshops</a></li>
-    <li><a href="#awards--achievements" style="text-decoration: none; color: #0366d6;">🏆 Awards and Achievements</a></li>
-    <li><a href="#more" style="text-decoration: none; color: #0366d6;">📚 More</a></li>
-  </ul>
+  ...
 </nav>
 
 <!-- Fixed Photo on Right -->
 <div style="
   position: fixed;
-  right: 0;
+  right: 20px;          /* changed from 0 to 20px */
   top: 20px;
   bottom: 20px;
   width: 200px;
@@ -37,22 +28,24 @@
   <img src="sms_chakrabortty_amartya.jpg" alt="Amartya Chakrabortty" style="max-width: 100%; border-radius: 12px; box-shadow: 0 0 8px rgba(0,0,0,0.2);">
 </div>
 
+
 <!-- Main Content Area -->
 <div style="margin-left: 250px; margin-right: 230px; padding: 20px;">
 <!-- REPLACE THIS WITH YOUR MARKDOWN CONTENT -->
   ## 📌 About {#about}
 
   Welcome to my academic homepage. I am **Amartya Chakrabortty**, currently in the final phase of my Ph.D. in Mathematics at **RPTU Kaiserslautern and Landau** (formerly TU Kaiserslautern),   jointly conducted with the **Fraunhofer Institute for Industrial Mathematics (ITWM)**.  
-  My doctoral research is supervised by **Prof. Dr. Martin Grothaus** (RPTU), **Dr. Julia Orlik** (Fraunhofer ITWM), in collaboration with **Prof. Dr. Georges Griso** (Sorbonne Université,     Paris).
+  My doctoral research is supervised by **Dr. Julia Orlik** (Fraunhofer ITWM, Kaiserslautern) and **Prof. Dr. Martin Grothaus** (RPTU Kaiserslautern), in collaboration with **Prof. Dr. Georges Griso** (Sorbonne Université,     Paris).
 
-  My Ph.D. work focuses on the **rigorous derivation of reduced and effective models in nonlinear elasticity**, particularly via the **simultaneous application of homogenization and            dimension reduction techniques** to thin structures with high contrast and complex microstructure.
+  My doctoral research focuses on the rigorous derivation of reduced and effective models in nonlinear elasticity, particularly through the simultaneous application of homogenization and dimension reduction techniques to thin structures with high contrast and complex microstructure.
+  
+  In parallel, I have participated in external collaborations on modeling and asymptotic analysis of biological systems. I have also worked on optimal control problems and eigenvalue problems.  
+  In my role as a research assistant (HiWi) in the Department of Flow and Material Simulation at Fraunhofer ITWM, I contribute to the modeling, simulation, and validation of textile-  based structures, using in-house tools such as `TexMath` and `FiberFEM`.
 
-  In parallel, I have participated in external collaborations on **modeling and asymptotic analysis of biological systems**. I have also worked on **optimal control problems** and           **eigenvalue problems**.  
-  In my role as a research assistant (HiWi) in the **Department of Flow and Material Simulation** at Fraunhofer ITWM, I contribute to the **modeling, simulation, and validation of textile-  based structures**, using in-house tools such as `TexMath` and `FiberFEM`.
+  My broader research interests include the **calculus of variations**, **nonlinear PDE theory**, **multiscale modeling**, and **mathematical continuum mechanics**.
 
-  My broader research interests include the **calculus of variations**, **nonlinear PDEs**, and **multiscale modeling**.
+  Beyond academics, I enjoy playing **volleyball**, **badminton**, and **swimming**, going to the **gym**, and writing **sci-fi fantasy stories**.
 
-  Outside of academics, I enjoy playing **volleyball**, **badminton**, **swimming**, going to the **gym**, and writing **sci-fi fantasy stories**.
 
   ---
 
@@ -61,7 +54,7 @@
   - **Ph.D. in Mathematics**  
   *March 2023 – Present*  
   Department of Mathematics, RPTU Kaiserslautern & Landau, Germany  
-  **Thesis title:** *Asymptotic analysis of high-contrast composites governed by non-linear elasticity*
+  **Thesis title:** *Asymptotic analysis of thin high-contrast composites governed by non-linear elasticity*
 
 - **Project Studies in Advanced Technology (ProSAT)**  
   *September 2022 – February 2023*  
