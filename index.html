@@ -1,88 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Amartya Chakrabortty</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8" />
+  <title>Home</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <style>
     body {
-      font-family: system-ui, sans-serif;
-      line-height: 1.6;
+      font-family: Arial, sans-serif;
       margin: 0;
-      padding: 0;
-      background: #fdfdfd;
-    }
-    nav {
-      position: fixed;
-      left: 0;
-      top: 20px;
-      bottom: 20px;
-      width: 220px;
-      overflow-y: auto;
-      padding-right: 20px;
-      border-right: 2px solid #ddd;
-      background: white;
-      z-index: 10;
-    }
-    .right-photo {
-      position: fixed;
-      right: 0;
-      top: 20px;
-      bottom: 20px;
-      width: 200px;
-      padding-left: 20px;
-      background: white;
-      z-index: 10;
-    }
-    .main-content {
-      margin-left: 250px;
-      margin-right: 230px;
-      padding: 20px;
-      background: white;
-    }
-    a {
-      color: #0366d6;
-      text-decoration: none;
+      background: #f9f9f9;
     }
   </style>
 </head>
 <body>
 
-<!-- Left Sidebar -->
-<nav>
-  <h3>🔗 Contents</h3>
-  <ul style="list-style: none; padding-left: 0; font-size: 1.1em;">
-    <li><a href="#about">📌 About</a></li>
-    <li><a href="#educational-qualification">🎓 Education</a></li>
-    <li><a href="#employment-history">💼 Employment</a></li>
-    <li><a href="#research-interests">🔬 Research</a></li>
-    <li><a href="#conferences--workshops">📅 Conferences</a></li>
-    <li><a href="#awards--achievements">🏆 Awards</a></li>
-    <li><a href="#more">📚 More</a></li>
-  </ul>
-</nav>
+  <!-- Fixed Sidebar on Left -->
+  <nav style="
+    position: fixed;
+    left: 20px;
+    top: 20px;
+    bottom: 20px;
+    width: 220px;
+    overflow-y: auto;
+    padding-right: 20px;
+    border-right: 2px solid #ddd;
+    background: white;
+    z-index: 10;
+  ">
+    <h3>🔗 Contents</h3>
+    <ul style="list-style: none; padding-left: 0; font-size: 1.1em;">
+      <li><a href="#about" style="text-decoration: none; color: #0366d6;">📌 About</a></li>
+      <li><a href="#educational-qualification" style="text-decoration: none; color: #0366d6;">🎓 Educational Qualification</a></li>
+      <li><a href="#employment-history" style="text-decoration: none; color: #0366d6;">💼 Employment History</a></li>
+      <li><a href="#research-interests" style="text-decoration: none; color: #0366d6;">🔬 Research Interests</a></li>
+      <li><a href="#conferences--workshops" style="text-decoration: none; color: #0366d6;">📅 Conferences & Workshops</a></li>
+      <li><a href="#awards--achievements" style="text-decoration: none; color: #0366d6;">🏆 Awards and Achievements</a></li>
+      <li><a href="#more" style="text-decoration: none; color: #0366d6;">📚 More</a></li>
+    </ul>
+  </nav>
 
-<!-- Right Photo -->
-<div class="right-photo">
-  <img src="/assets/sms_chakrabortty_amartya.jpg" alt="Amartya Chakrabortty" style="max-width: 100%; border-radius: 12px; box-shadow: 0 0 8px rgba(0,0,0,0.2);">
-</div>
+  <!-- Fixed Photo on Right -->
+  <div style="
+    position: fixed;
+    right: 20px;
+    top: 20px;
+    bottom: 20px;
+    width: 200px;
+    padding-left: 20px;
+    background: white;
+    z-index: 10;
+    text-align: center;
+  ">
+    <img src="sms_chakrabortty_amartya.jpg" alt="Amartya Chakrabortty" style="max-width: 100%; border-radius: 12px; box-shadow: 0 0 8px rgba(0,0,0,0.2);" />
+  </div>
 
-<!-- Main Content Area -->
-<div class="main-content">
-  <!-- REPLACE THIS WITH YOUR MARKDOWN CONTENT -->
-<h2 id="about">📌 About</h2>
+  <!-- Main Content Area -->
+  <div style="margin-left: 250px; margin-right: 230px; padding: 20px; background: white; min-height: 100vh;">
+    <h2 id="about">📌 About</h2>
 
-<p>Welcome to my academic homepage. I am <strong>Amartya Chakrabortty</strong>, currently in the final phase of my Ph.D. in Mathematics at <strong>RPTU Kaiserslautern and Landau</strong> (formerly TU Kaiserslautern),   jointly conducted with the <strong>Fraunhofer Institute for Industrial Mathematics (ITWM)</strong>.<br />
-  My doctoral research is supervised by <strong>Prof. Dr. Martin Grothaus</strong> (RPTU), <strong>Dr. Julia Orlik</strong> (Fraunhofer ITWM), in collaboration with <strong>Prof. Dr. Georges Griso</strong> (Sorbonne Université,     Paris).</p>
+<p>Welcome to my academic homepage. I am <strong>Amartya Chakrabortty</strong>, currently in the final phase of my Ph.D. in Mathematics at <strong>RPTU Kaiserslautern and Landau</strong> (formerly TU Kaiserslautern), jointly conducted with the <strong>Fraunhofer Institute for Industrial Mathematics (ITWM)</strong>.<br />
+My doctoral research is supervised by <strong>Dr. Julia Orlik</strong> (Fraunhofer ITWM, Kaiserslautern) and <strong>Prof. Dr. Martin Grothaus</strong> (RPTU Kaiserslautern), in collaboration with <strong>Prof. Dr. Georges Griso</strong> (Sorbonne Université, Paris).</p>
 
-<p>My Ph.D. work focuses on the <strong>rigorous derivation of reduced and effective models in nonlinear elasticity</strong>, particularly via the <strong>simultaneous application of homogenization and            dimension reduction techniques</strong> to thin structures with high contrast and complex microstructure.</p>
+<p>My doctoral research focuses on the rigorous derivation of reduced and effective models in nonlinear elasticity, particularly through the simultaneous application of homogenization and dimension reduction techniques to thin structures with high contrast and complex microstructure.</p>
 
-<p>In parallel, I have participated in external collaborations on <strong>modeling and asymptotic analysis of biological systems</strong>. I have also worked on <strong>optimal control problems</strong> and           <strong>eigenvalue problems</strong>.<br />
-  In my role as a research assistant (HiWi) in the <strong>Department of Flow and Material Simulation</strong> at Fraunhofer ITWM, I contribute to the <strong>modeling, simulation, and validation of textile-  based structures</strong>, using in-house tools such as <code class="language-plaintext highlighter-rouge">TexMath</code> and <code class="language-plaintext highlighter-rouge">FiberFEM</code>.</p>
+<p>In parallel, I have participated in external collaborations on modeling and asymptotic analysis of biological systems. I have also worked on optimal control problems and eigenvalue problems.<br />
+In my role as a research assistant (HiWi) in the Department of Flow and Material Simulation at Fraunhofer ITWM, I contribute to the modeling, simulation, and validation of textile-based structures, using in-house tools such as <code class="language-plaintext highlighter-rouge">TexMath</code> and <code class="language-plaintext highlighter-rouge">FiberFEM</code>.</p>
 
-<p>My broader research interests include the <strong>calculus of variations</strong>, <strong>nonlinear PDEs</strong>, and <strong>multiscale modeling</strong>.</p>
+<p>My broader research interests include the <strong>calculus of variations</strong>, <strong>nonlinear PDE theory</strong>, <strong>multiscale modeling</strong>, and <strong>mathematical continuum mechanics</strong>.</p>
 
-<p>Outside of academics, I enjoy playing <strong>volleyball</strong>, <strong>badminton</strong>, <strong>swimming</strong>, going to the <strong>gym</strong>, and writing <strong>sci-fi fantasy stories</strong>.</p>
+<p>Beyond academics, I enjoy playing <strong>volleyball</strong>, <strong>badminton</strong>, and <strong>swimming</strong>, going to the <strong>gym</strong>, and writing <strong>sci-fi fantasy stories</strong>.</p>
 
 <hr />
 
@@ -93,7 +79,7 @@
     <p><strong>Ph.D. in Mathematics</strong><br />
 <em>March 2023 – Present</em><br />
 Department of Mathematics, RPTU Kaiserslautern &amp; Landau, Germany<br />
-<strong>Thesis title:</strong> <em>Asymptotic analysis of high-contrast composites governed by non-linear elasticity</em></p>
+<strong>Thesis title:</strong> <em>Asymptotic analysis of thin high-contrast composites governed by non-linear elasticity</em></p>
   </li>
   <li>
     <p><strong>Project Studies in Advanced Technology (ProSAT)</strong><br />
@@ -233,9 +219,9 @@ Course Hero, Philippines</p>
 
 <hr />
 
-<p><em>Last updated: July 2025</em></p>
+<p><em>Last updated: August 2025</em></p>
 
-</div>
+  </div>
 
 </body>
 </html>
